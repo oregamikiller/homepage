@@ -1,51 +1,37 @@
-STRML.net
+分享内容
 =========
 
-Samuel Reed
-CTO, BitMEX (The Bitcoin Mercantile Exchange)
-Full-Stack / NodeJS / DevOps
-
-Contact
+构建开发环境
 -------
 
-* sam at bitmex dot com
-* samuel.trace.reed at gmail dot com
-* STRML on irc.freenode.net
-* @STRML_ on Twitter
+* 充分利用家庭宽带
+不用备案的80端口
 
-Availability
+* 连接各设备
+ip + port + protocol, 连接一切
+
+* 服务发现
+githubpage正确的打开方式
+
+定制服务
 ------------
+* 推送
+apns + mail
 
-At this time, I am busy. I am happy to entertain
-proposals for later work but immediate availability
-is scarce.
+* 爬虫
 
-Projects
+* 简单的集群管理
+docker swarm
+
+定制应用
 --------
+* Android Local Server
 
-* www.BitMEX.com
-* www.Securesha.re
-* www.Tixelated.com
-* www.BrightestYoungThings.com
-and of course...
-* www.strml.net
 
-Open Source
------------
+* UI Automator
+用脚本操作手机
 
-* Babel
-* React-Grid-Layout
-* React-LocalStorage
-* React-Router-Component
-* React-Resizable
-* React-Draggable
-* OpenBazaar
-* JSXHint
-* BTChip-Signing-Tools
-* TextFit
-* Imgur-to-GFYcat
-* backbone.queryRouter
-* backbone.layoutManager
-* Mongoose-Filter-Denormalize
+* Cocos2d集成
+native merge cocos
 
 
