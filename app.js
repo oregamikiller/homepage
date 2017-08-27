@@ -5,7 +5,7 @@ const md = Markdown.markdown.toHTML;
 import workText from 'raw-loader!./work.txt';
 import headerHTML from 'raw-loader!./header.html';
 let styleText = [0, 1, 2, 3].map(function(i) { return require('raw-loader!./styles' + i + '.css'); });
-let rightText = [0, 1, 2].map(function(i) { return require('raw-loader!./right' + i + '.txt' ); });
+let rightText = [0, 1].map(function(i) { return require('raw-loader!./right' + i + '.txt' ); });
 import preStyles from 'raw-loader!./prestyles.css';
 import replaceURLs from './lib/replaceURLs';
 import {default as writeChar, writeSimpleChar, handleChar} from './lib/writeChar';
@@ -34,13 +34,12 @@ async function startAnimation() {
 
     await writeTo(workEl, workText, 0, speed, false, 1);
     await writeTo(styleEl, styleText[1], 0, speed, true, 1);
-    await writeTo(rightEl, rightText[0], 0, 14, false, 1);
+    await writeTo(rightEl, rightText[1], 0, speed, false, 1);
 
     createWorkBox();
     await Promise.delay(1000);
     await writeTo(styleEl, styleText[2], 0, speed, true, 1);
     await writeTo(styleEl, styleText[3], 0, speed, true, 1);
-    await writeTo(rightEl, rightText[0], 0, speed, false, 1);
   }
   // Flow control straight from the ghettos of Milwaukee
   catch(e) {

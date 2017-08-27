@@ -15,21 +15,22 @@ githubpage正确的打开方式
 
 定制服务
 ------------
+* 简单的集群管理
+docker swarm
+
 * 推送
 apns + mail
 
 * 爬虫
+python vs node
 
-* 简单的集群管理
-docker swarm
 
 定制应用
 --------
-* Android Local Server
-
-
 * UI Automator
 用脚本操作手机
+
+* Android Local Server
 
 * Cocos2d集成
 native merge cocos
