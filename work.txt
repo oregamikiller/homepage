@@ -1,38 +1,30 @@
 分享内容
 =========
 
-构建开发环境
+log
 -------
 
-* 充分利用家庭宽带
-不用备案的80端口
+* graylog monitor
+http://docs.graylog.org/en/2.4/pages/streams/alerts.html
 
-* 连接各设备
-ip + port + protocol, 连接一切
+* kafka
 
-* 服务发现
-githubpage正确的打开方式
+* user_info, online_device, latest_log从哪来的
 
-定制服务
+
+
+ffi
 ------------
-* 简单的集群管理
-docker swarm
-
-* 推送
-apns + mail
-
-* 爬虫
-python vs node
+* node-ffi
+Turn Buffer instances into "pointers"
+http://tootallnate.github.io/ref/
 
 
-定制应用
---------
-* UI Automator
-用脚本操作手机
+* jni
+https://www.ibm.com/developerworks/java/library/j-jni/
 
-* Android Local Server
 
-* Cocos2d集成
-native merge cocos
-
+* swift
+UnsafePointer: A pointer for accessing data of a specific type.
+https://developer.apple.com/documentation/swift/unsafepointer
 

@@ -1,50 +1,7 @@
-`curl -s 1212.ip138.com/ic.asp |  iconv -f gb2312 -t utf-8 |  grep -oe '\[\(.*\)\]' | sed 's/\[//g' | sed 's/\]//g'`
-
-vnc: 5900, win:3389
-
-xxx.github.io
+Authorization: Basic ODcyMjNkM............
 
 
-docker swarm init, join, leave
-docker service create, update, scale
 
-iOS: deviceToken
-Nodemailer
-
-PhantomJS, 如何生成选择器表达式
-
-
-from uiautomator import Device
-d = Device()
-while d.screen == "off":
-    d.screen.on()
-while not d(text=u'xxxx').exists:
-        d.press.home()
-        d.swipe(200, 500, 200, 100, steps=10)
-d(text=u'xxxx').click()
-
-
-private BroadcastReceiver receiver = new BroadcastReceiver()
-intentFilter = new IntentFilter();
-            intentFilter.addAction("android.provider.Telephony.SMS_RECEIVED");
-            intentFilter.setPriority(Integer.MAX_VALUE);
-            registerReceiver(receiver, intentFilter);
-
-AndServer andServer = new AndServer.Build()
-.port(12345)
-.timeout(10 * 1000)
-.registerHandler("test", new RequestLoginHandler())
-
-ip:12345/test
-
-CocosPod
-cloned = Marshal.load(Marshal.dump(Pod::Sandbox::FileAccessor::GLOB_PATTERNS))
-Pod::Sandbox::FileAccessor::HEADER_EXTENSIONS = (%w(.inl .msg) + Pod::Sandbox::FileAccessor::HEADER_EXTENSIONS)
-puts Pod::Sandbox::FileAccessor::HEADER_EXTENSIONS
-s = Pod::Sandbox::FileAccessor::GLOB_PATTERNS[:public_header_files]
-s = s[0...s.length-1]+',.inl,.msg'+s[s.length-1]
-cloned[:public_header_files] = s
-puts Pod::Sandbox::FileAccessor::GLOB_PATTERNS = cloned
 
 
 
